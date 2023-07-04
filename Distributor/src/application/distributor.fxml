@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DistributorController">
+   <children>
+      <Label layoutX="161.0" layoutY="14.0" text="REGISTRACIJA DISTRIBUTERA">
+         <font>
+            <Font name="Century Gothic Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="78.0" text="Naziv distributera:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTxt" layoutX="149.0" layoutY="76.0" prefHeight="25.0" prefWidth="136.0" />
+      <TableView fx:id="materialTable" layoutX="327.0" layoutY="71.0" prefHeight="394.0" prefWidth="354.0">
+         <columns>
+            <TableColumn fx:id="idColumn" editable="false" minWidth="100.0" prefWidth="110.0" sortable="false" text="Id" />
+            <TableColumn fx:id="nameColumn" editable="false" minWidth="90.0" prefWidth="113.0" sortable="false" text="Naziv" />
+            <TableColumn fx:id="quantityColumn" editable="false" minWidth="77.0" prefWidth="130.0" sortable="false" text="Dostupna kolicina" />
+         </columns>
+      </TableView>
+      <Pane fx:id="panel" layoutX="33.0" layoutY="174.0" prefHeight="188.0" prefWidth="273.0" style="-fx-border-color: black;">
+         <children>
+            <Label layoutX="14.0" layoutY="44.0" text="Naziv materijala:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="12.0" layoutY="84.0" text="Dostupna kolicina:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="addMaterialButton" layoutX="51.0" layoutY="128.0" mnemonicParsing="false" onAction="#addMaterialButtonClicked" prefHeight="34.0" prefWidth="153.0" text="Dodaj materijal">
+               <font>
+                  <Font name="Century Gothic" size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="materialTxt" layoutX="128.0" layoutY="42.0" prefHeight="25.0" prefWidth="136.0" />
+            <TextField fx:id="quantityTxt" layoutX="128.0" layoutY="82.0" prefHeight="25.0" prefWidth="136.0" />
+            <Label layoutX="75.0" layoutY="13.0" text="Dodavanje materijala">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="registerButton" layoutX="259.0" layoutY="481.0" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="34.0" prefWidth="153.0" text="Registruj distributera">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

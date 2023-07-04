@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <Label alignment="BOTTOM_CENTER" layoutX="124.0" layoutY="14.0" text="Prijava">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="68.0" text="Korisnicko ime:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTxt" layoutX="121.0" layoutY="66.0" prefHeight="25.0" prefWidth="176.0" />
+      <Button fx:id="prijavaButton" layoutX="101.0" layoutY="109.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="35.0" prefWidth="126.0" text="PRIJAVI SE">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

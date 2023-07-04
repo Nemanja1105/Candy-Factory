@@ -1,0 +1,27 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Order">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="orders">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="orders" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:integer" name="productId"/>
+                    <xs:element type="xs:string" name="productName"/>
+                    <xs:element type="xs:double" name="productPrice"/>
+                    <xs:element type="xs:integer" name="quantity"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="clientUsername"/>
+        <xs:element type="xs:string" name="email"/>
+        <xs:element type="xs:boolean" name="status"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

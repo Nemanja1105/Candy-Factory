@@ -1,0 +1,7 @@
+Korisnicko ime narucioca: nemanja
+Email narucioca: nemanjamilosevic117@gmail.com
+Status: Odobrena
+Stavke narudzbe:
+Proizvod [productId=3, naziv=Karamele, cijena=2.0, kolicina=123]
+Proizvod [productId=1, naziv=Cokolada, cijena=5.0, kolicina=45]
+

@@ -1,0 +1,7 @@
+Korisnicko ime narucioca: dafi
+Email narucioca: info@mtel.ba
+Status: Odobrena
+Stavke narudzbe:
+Proizvod [productId=3, naziv=Karamele, cijena=2.0, kolicina=12]
+Proizvod [productId=2, naziv=Puding, cijena=1.0, kolicina=45]
+

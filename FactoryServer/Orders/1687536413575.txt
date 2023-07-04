@@ -1,0 +1,6 @@
+Korisnicko ime narucioca: dafi
+Email narucioca: info@mtel.ba
+Status: Odobrena
+Stavke narudzbe:
+Proizvod [productId=6, naziv=Suvi kolaci, cijena=6.0, kolicina=12]
+

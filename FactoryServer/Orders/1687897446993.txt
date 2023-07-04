@@ -1,0 +1,8 @@
+Korisnicko ime narucioca: nemanja
+Email narucioca: nemanjamilosevic117@gmail.com
+Status: Odobrena
+Stavke narudzbe:
+Proizvod [productId=6, naziv=Suvi kolaci, cijena=6.0, kolicina=12]
+Proizvod [productId=2, naziv=Puding, cijena=1.0, kolicina=34]
+Proizvod [productId=4, naziv=Napolitanke, cijena=3.0, kolicina=45]
+
